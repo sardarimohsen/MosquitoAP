@@ -26,3 +26,4 @@ labels=le.fit_transform(labels)
 model=KNeighborsClassifier()
 model.fit(trainX,trainY)
 print(classification_report(testY,model.predict(testX),target_names=le.classes_))
+#%%
