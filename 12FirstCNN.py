@@ -53,6 +53,9 @@ plt.close()
 print(H.history.keys())
 plt.style.use('ggplot')
 plt.figure()
+
+#%%
+
 plt.plot(np.arange(0,500),H.history["val_accuracy"],label='test_acc')
 plt.plot(np.arange(0,500),H.history["accuracy"],label='training_acc')
 plt.legend()
